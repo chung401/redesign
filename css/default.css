@@ -1,0 +1,851 @@
+      /* EMBEDDED FONTS */
+
+@font-face {
+  font-family: georgia;
+  src:url(../fonts/georgia.ttf);
+}
+
+@font-face {
+  font-family: georgia-italic;
+  src:url(../fonts/Georgia Italic.ttf);
+}
+
+@font-face {
+  font-family: georgia-bold;
+  src:url(../fonts/Georgia Bold.ttf);
+}
+/*
+a:link    {color:black; background-color:transparent; text-decoration:none}
+*/
+
+      /* BODY */
+
+body {
+  height: 100%;
+  background-color: white;
+  color: black;
+  font: 100% Arial, Sans Serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#nav_container {
+  font-family: 'Pathway Gothic One';
+  background-color: white;
+  position: fixed;
+  float: right;
+  width: 70px;
+  height: 100%;
+  right: 0px;
+  z-index: 5;
+
+}
+
+      /* NAVIGATION */
+
+.nav_alt {
+  text-decoration: none;
+  color: black;
+  text-align: right;
+  width: 44px;
+  margin: 0px 0px 0px 13px;
+
+ display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.nav_alt:hover, .nav_alt:focus, .nav_alt:active {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}  
+
+.navigation {
+  font-family: 'Pathway Gothic One';
+  background-color: white;
+  position: fixed;
+  float: right;
+  right: 14px;
+  text-align: right;
+  line-height: 6px;
+  width: 35px;
+  height: 112px;
+  z-index: 5;
+
+}
+
+.music {
+
+text-decoration:none;
+background-color:transparent; 
+color: #ff2712;
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.music:hover, .music:focus, .music:active {
+  -webkit-transform: skew(-15deg);
+  transform: skew(-15deg);
+}
+
+
+.live {
+
+text-decoration:none;
+background-color:transparent; 
+color: #00bb29;
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.live:hover, .live:focus, .live:active {
+  -webkit-transform: skew(15deg);
+  transform: skew(15deg);
+}
+
+.about {
+
+text-decoration:none;
+background-color:transparent; 
+color: #0162c1;
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.about:hover, .about:focus, .about:active {
+  -webkit-transform: skew(-15deg);
+  transform: skew(-15deg);
+}
+
+.facebook {
+
+text-decoration:none;
+background-color:transparent; 
+color: black;
+position: relative;
+float: left;
+
+display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.facebook:hover, .facebook:focus, .facebook:active {
+  -webkit-transform: skew(15deg);
+  transform: skew(15deg);
+
+}
+
+.twitter {
+
+text-decoration:none;
+background-color:transparent; 
+color: black;
+position: relative;
+right: 15.5px;
+top: -2px;
+
+display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.twitter:hover, .twitter:focus, .twitter:active {
+  -webkit-transform: skew(-15deg);
+  transform: skew(-15deg);
+
+}
+
+.youtube {
+
+text-decoration:none;
+background-color:transparent; 
+color: black;
+position: relative;
+top: -32px;
+
+display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.youtube:hover, .youtube:focus, .youtube:active {
+  -webkit-transform: skew(15deg);
+  transform: skew(15deg);
+
+}
+
+      /* JAVASCRIPT COLORS */
+
+.red {
+  color: #ff2712;
+}
+.green {
+  color: #00bb29;
+}
+.blue {
+  color: #0162c1;
+}
+
+      /* ARRAYS */
+
+#line1 {
+
+  display: none;
+  font-family: 'Pathway Gothic One';
+  font-weight: 700;
+  font-size: 9.65em;
+  position: relative;
+  width: 1060px;
+  height: 150px;
+  top: 50px;
+  left: 25px;
+  z-index: -1;
+
+
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+
+}
+
+#line1:hover, #line1:focus, #line1:active {
+  -webkit-transform: skew(-15deg);
+  transform: skew(-15deg);
+}
+
+#line2 {
+
+  display: none;
+  font-family: 'Pathway Gothic One';
+  font-weight: 700;
+  font-size: 9.65em;
+  position: relative;
+  width: 1060px;
+  height: 150px;
+  top: 75px;
+  left: 25px;
+  z-index: -1;
+
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+
+}
+
+#line2:hover, #line2:focus, #line2:active {
+  -webkit-transform: skew(15deg);
+  transform: skew(15deg);
+}
+
+#line3 {
+
+  display: none;
+  font-family: 'Pathway Gothic One';
+  font-weight: 700;
+  font-size: 9.65em;
+  position: relative;
+  width: 1060px;
+  height: 150px;
+  top: 100px;
+  left: 25px;
+  z-index: -1;
+
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+
+}
+
+#line3:hover, #line3:focus, #line3:active {
+  -webkit-transform: skew(-15deg);
+  transform: skew(-15deg);
+}
+
+#line4 {
+
+  display: none;
+  font-family: 'Pathway Gothic One';
+  font-weight: 700;
+  font-size: 9.65em;
+  position: relative;
+  width: 1060px;
+  height: 150px;
+  top: 125px;
+  left: 25px;
+  z-index: -1;
+
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+
+}
+
+#line4:hover, #line4:focus, #line4:active {
+  -webkit-transform: skew(15deg);
+  transform: skew(15deg);
+}
+
+      /* EVERY OTHER FRECKLE */
+
+#devour_me {
+
+  display: none;
+  width: 100%;
+  height: 800px;
+  background: url("../images/home/00-originals/freckles.jpg") no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+
+}
+
+#freckle {
+
+  font-family: georgia-italic;  
+  position: fixed;
+  color: white;
+  float: right;
+  right: 103px;
+  top: 25px;
+  width: 150px;
+  height: 50px;
+
+}
+
+      /* BREEZEBLOCKS */
+
+#love_you_so {
+
+  display: none;
+  width: 100%;
+  height: 800px;
+  background: url("../images/home/01-edits/breezeblocks.png") no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+
+}
+
+#breezeblocks {
+
+  font-family: georgia-italic;  
+  position: fixed;
+  color: white;
+  float: right;
+  right: 103px;
+  top: 25px;
+  width: 150px;
+  height: 50px;
+  text-align: right;
+
+}
+
+      /* BLOODFLOOD */
+
+#M_O_N {
+
+  display: none;
+  width: 100%;
+  height: 800px;
+  background: url("../images/home/01-edits/bloodflood.png") no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+
+}
+
+#bloodflood {
+
+  font-family: georgia-italic;  
+  position: fixed;
+  color: white;
+  float: right;
+  right: 103px;
+  top: 25px;
+  width: 150px;
+  height: 50px;
+  text-align: right;
+
+}
+
+      /* TESSELLATE */
+
+#three_points {
+
+  display: none;
+  width: 100%;
+  height: 800px;
+  background: url("../images/home/01-edits/tessellate.png") no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+
+}
+
+#tessellate {
+
+  font-family: georgia-italic;  
+  position: fixed;
+  color: white;
+  float: right;
+  right: 103px;
+  top: 25px;
+  width: 150px;
+  height: 50px;
+  text-align: right;
+
+}
+
+      /* SOMETHING GOOD */
+
+#estocada {
+
+  display: none;
+  width: 100%;
+  height: 800px;
+  background: url("../images/home/00-originals/something.jpg") no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+
+}
+
+#something_good {
+
+  font-family: georgia-italic;  
+  position: fixed;
+  color: white;
+  float: right;
+  right: 103px;
+  top: 25px;
+  width: 150px;
+  height: 50px;
+  text-align: right;
+
+}
+
+      /* LEFT HAND FREE */
+
+#towards_his_gun {
+
+  display: none;
+  width: 100%;
+  height: 800px;
+  background: url("../images/home/00-originals/left.png") no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+
+}
+
+#left_hand_free {
+
+  font-family: georgia-italic;  
+  position: fixed;
+  color: white;
+  float: right;
+  right: 103px;
+  top: 25px;
+  width: 150px;
+  height: 50px;
+  text-align: right;
+
+}
+
+      /* HUNGER OF THE PINE */
+
+#sleeplessly {
+
+  display: none;
+  width: 100%;
+  height: 800px;
+  background: url("../images/home/00-originals/hunger.jpg") no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+
+}
+
+#hunger_of_the_pine {
+
+  font-family: georgia-italic;  
+  position: fixed;
+  color: white;
+  float: right;
+  right: 103px;
+  top: 25px;
+  width: 150px;
+  height: 50px;
+  text-align: right;
+
+}
+
+      /* FITZPLEASURE */
+
+#tralala {
+
+  display: none;
+  width: 100%;
+  height: 800px;
+  background: url("../images/home/00-originals/pleasure3.png") no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+
+}
+
+#fitzpleasure {
+
+  font-family: georgia-italic;  
+  position: fixed;
+  color: white;
+  float: right;
+  right: 103px;
+  top: 25px;
+  width: 150px;
+  height: 50px;
+  text-align: right;
+
+}
+
+
+#wrap {
+  
+  position: absolute;
+  height: 100%;
+  left: 3em;
+  z-index: 5;
+
+}
+
+      /* ABOUT HTML */
+
+
+
+
+#members {
+
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  background: url("../images/about/members.jpg") no-repeat center fixed;
+  z-index: 1;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+
+}
+
+@-webkit-keyframes members {
+
+   0% { opacity: 0; }
+   20%, 100% { opacity: 100; }
+
+}
+
+#members {
+  -webkit-animation: members 8s cubic-bezier(.9,0,.3,1);
+
+}
+
+      /* THOM CONTAINER */
+
+#thom_container {
+
+  position: absolute;
+  left: 85px;
+  top: 30px;
+  color: white;
+  height: 89px;
+  width: 242px;
+  z-index: 4;
+
+}
+
+#thom {
+
+  color: #ff2712;
+  position: relative;
+  top: -45px;
+  font-size: 25pt;
+  font-family: 'Pathway Gothic One';
+
+}
+
+#drums {
+
+  color: white;
+  position: relative;
+  top: -89px;
+  width: 41px;
+  height: 13px;
+  font-family: georgia;
+  font-size: 10pt;
+
+}
+
+@-webkit-keyframes thom_color {
+
+   0% { color: white; }
+   20% { color: white; }
+   30%, 100% { color: #ff2712; }
+
+}
+
+@-webkit-keyframes thom_move {
+
+   0% { top: -90px; left: 85px; }
+   20% { top: -90px; left: 85px; }
+   30%, 100% { top: 30px; left: 85px; }
+
+}
+
+#thom {
+  -webkit-animation: thom_color 12s cubic-bezier(.9,0,.3,1);
+
+}
+
+#thom_container {
+
+  -webkit-animation: thom_move 5s cubic-bezier(.9,0,.3,1);
+
+  }
+
+      /* GUS CONTAINER */
+
+#gus_container {
+
+  position: absolute;
+  left: 465px;
+  top: 75px;
+  color: white;
+  height: 96px;
+  width: 415px;
+  z-index: 4;
+
+}
+
+#gus {
+
+  color: #00bb29;
+  position: relative;
+  top: -45px;
+  font-size: 25pt;
+  font-family: 'Pathway Gothic One';
+
+}
+
+#keyboards {
+
+  color: white;
+  position: relative;
+  top: -82px;
+  width: 155px;
+  height: 13px;
+  font-family: georgia;
+  font-size: 10pt;
+
+}
+
+@-webkit-keyframes gus_color {
+
+   0% { color: white; }
+   20% { color: white; }
+   30%, 100% { color: #00bb29; }
+
+}
+
+@-webkit-keyframes gus_move {
+
+   0% { top: -100px; left: 465px; }
+   20% { top: -100px; left: 465px; }
+   30%, 100% { top: 75px; left: 465px; }
+
+}
+
+#gus {
+  -webkit-animation: gus_color 12.5s cubic-bezier(.9,0,.3,1);
+
+}
+
+#gus_container {
+  -webkit-animation: gus_move 7s cubic-bezier(.9,0,.3,1);
+
+}
+
+      /* JOE CONTAINER */
+
+#joe_container {
+
+  position: absolute;
+  left: 995px;
+  top: 155px;
+  height: 89px;
+  width: 262px;
+  z-index: 4;
+
+}
+
+#joe {
+
+  color: #0162c1;
+  height: 65px;
+  position: relative;
+  top: -45px;
+  font-size: 25pt;
+  font-family: 'Pathway Gothic One';
+
+}
+
+#lead {
+
+  color: white;
+  position: relative;
+  top: -47px;
+  width: 109px;
+  height: 13px;
+  font-family: georgia;
+  font-size: 10pt;
+
+}
+
+@-webkit-keyframes joe_color {
+
+   0% { color: white; }
+   20% { color: white; }
+   30%, 100% { color: #0162c1; }
+
+}
+
+@-webkit-keyframes joe_move {
+
+   0% { top: -100px; left: 995px; }
+   20% { top: -100px; left: 995px; }
+   30%, 100% { top: 155px; left: 995px; }
+
+}
+
+#joe {
+  -webkit-animation: joe_color 13s cubic-bezier(.9,0,.3,1);
+
+}
+
+#joe_container {
+  -webkit-animation: joe_move 9s cubic-bezier(.9,0,.3,1);
+
+}
+
+
+#text1 {
+  font-size: 12pt;
+  font-weight: 300;
+  position: absolute;
+  font-family: times;
+  left: 400px;
+  top: 390px;
+  color: white;
+  height: 265px;
+  width: 276px;
+  z-index: 4;
+
+}
+
+@-webkit-keyframes text1_move {
+
+   0% { top: 800px; left: 400px; }
+   20% { top: 800px; left: 400px; }
+   30%, 100% { top: 390px; left: 400px; }
+
+}
+
+#text1 {
+  -webkit-animation: text1_move 16s cubic-bezier(.9,0,.3,1);
+  animation delay: 20s;
+
+}
+
+#text2 {
+  font-size: 12pt;
+  font-weight: 100;
+  position: absolute;
+  font-family: times;
+  left: 850px;
+  top: 264px;
+  color: white;
+  height: 500px;
+  width: 206px;
+  z-index: 4;
+
+}
+
+@-webkit-keyframes text2_move {
+
+   0% { top: 264px; left: 1400px; }
+   20% { top: 264px; left: 1400px; }
+   30%, 100% { top: 264px; left: 850px; }
+
+}
+
+#text2 {
+  -webkit-animation: text2_move 20s cubic-bezier(.9,0,.3,1);
+  animation delay: 20s;
+
+}
+
+
+
